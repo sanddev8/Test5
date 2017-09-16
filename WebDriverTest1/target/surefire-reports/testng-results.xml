@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="example.NewTest" duration-ms="13129" started-at="2017-09-16T15:59:09Z" finished-at="2017-09-16T15:59:22Z">
+  <suite name="example.NewTest" duration-ms="6182" started-at="2017-09-16T17:30:39Z" finished-at="2017-09-16T17:30:45Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="13129" started-at="2017-09-16T15:59:09Z" finished-at="2017-09-16T15:59:22Z">
+    <test name="Command line test" duration-ms="6182" started-at="2017-09-16T17:30:39Z" finished-at="2017-09-16T17:30:45Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@8317c52]" name="beforeTest" is-config="true" duration-ms="2640" started-at="2017-09-16T11:59:09Z" finished-at="2017-09-16T11:59:12Z">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:example.NewTest@1fb700ee]" name="Launch" duration-ms="817" started-at="2017-09-16T13:30:39Z" finished-at="2017-09-16T13:30:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@8317c52]" name="f" duration-ms="5194" started-at="2017-09-16T11:59:12Z" finished-at="2017-09-16T11:59:17Z">
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:example.NewTest@1fb700ee]" name="Login" duration-ms="3933" started-at="2017-09-16T13:30:40Z" finished-at="2017-09-16T13:30:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@8317c52]" name="afterTest" is-config="true" duration-ms="5234" started-at="2017-09-16T11:59:17Z" finished-at="2017-09-16T11:59:22Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SignOff()[pri:0, instance:example.NewTest@1fb700ee]" name="SignOff" duration-ms="1408" started-at="2017-09-16T13:30:44Z" finished-at="2017-09-16T13:30:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
+        </test-method> <!-- SignOff -->
       </class> <!-- example.NewTest -->
     </test> <!-- Command line test -->
   </suite> <!-- example.NewTest -->

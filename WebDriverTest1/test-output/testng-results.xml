@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6647" started-at="2017-09-03T18:12:18Z" finished-at="2017-09-03T18:12:24Z">
+  <suite name="Default suite" duration-ms="6185" started-at="2017-09-16T17:19:46Z" finished-at="2017-09-16T17:19:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6647" started-at="2017-09-03T18:12:18Z" finished-at="2017-09-03T18:12:24Z">
+    <test name="Default test" duration-ms="6185" started-at="2017-09-16T17:19:46Z" finished-at="2017-09-16T17:19:52Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@78123e82]" name="beforeTest" is-config="true" duration-ms="1005" started-at="2017-09-03T14:12:18Z" finished-at="2017-09-03T14:12:19Z">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:example.NewTest@1e04fa0a]" name="Launch" duration-ms="906" started-at="2017-09-16T13:19:46Z" finished-at="2017-09-16T13:19:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@78123e82]" name="f" duration-ms="4448" started-at="2017-09-03T14:12:19Z" finished-at="2017-09-03T14:12:23Z">
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:example.NewTest@1e04fa0a]" name="Login" duration-ms="3761" started-at="2017-09-16T13:19:47Z" finished-at="2017-09-16T13:19:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@78123e82]" name="afterTest" is-config="true" duration-ms="1177" started-at="2017-09-03T14:12:23Z" finished-at="2017-09-03T14:12:24Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SignOff()[pri:0, instance:example.NewTest@1e04fa0a]" name="SignOff" duration-ms="1490" started-at="2017-09-16T13:19:50Z" finished-at="2017-09-16T13:19:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
+        </test-method> <!-- SignOff -->
       </class> <!-- example.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
