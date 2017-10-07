@@ -17,7 +17,7 @@ public class NewTest {
   public void Login() {
   driver.findElement(By.xpath("//*[@name='userName']")).sendKeys("tutorial");
   driver.findElement(By.xpath("//*[contains(@name,'password')]")).sendKeys("tutorial");
-  driver.findElement(By.xpath("//*[contains(@name,'login')]")).submit();
+  driver.findElement(By.xpath("//*[contains(@name,'login')]")).click();
   Assert.assertEquals("Find a Flight: Mercury Tours:", driver.getTitle());
   }
   @Test
